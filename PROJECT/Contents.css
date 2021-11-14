@@ -1,0 +1,50 @@
+html{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 48%, rgba(9,121,44,0.7301295518207283) 100%);
+    animation:trans 0.75s;
+    font-family:"Open Sans Condensed";
+    animation:trans 0.75s
+}
+.a{
+    font-size: 50px;
+    color:darkorange;
+    text-align:center;
+}
+.b{
+    color:aquamarine;
+    text-decoration: none;
+    padding:7.5px;
+    margin-left:15px;
+    font-size:40px;
+    text-align:center;
+    
+}
+.b{
+    text-decoration: none;
+    padding:40px;
+    font-size:30px;
+    border:5px solid white;
+    border-radius:9px;
+    background-color:white;
+    color:darkorange
+}
+.c{
+    opacity:20%;
+
+}
+.d{
+    font-size:175px;
+    color:aquamarine;
+    text-align:center;
+}
+
+@keyframes trans{
+    from{
+        opacity:0;
+        transform:rotateX(-10deg);
+    }
+    to{
+        opacity:1;
+        transform:rotateX(0deg);
+    }
+}
